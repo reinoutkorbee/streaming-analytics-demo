@@ -4,7 +4,7 @@
 
 1. Checkout streaming-analytics-demo:
 
-git clone git@github.com:streaming-analytics-demo.git
+git clone git@github.com:snowflakecorp/streaming-analytics-demo.git
 
 2. Import streaming-analytics-demo in IntelliJ
 
@@ -25,16 +25,19 @@ create or replace table alerts (timestamp timestamp, value numeric, alert string
 `
 
 On the command line execute to copy the public key:
+
 `
 pbcopy <  app/src/main/resources/ssh_keys/rsa_key.pub
 `
 
 Remove the header and footer of the key.
+
 `
 alter user <user> set rsa_public_key='<PUBLIC KEY GOES HERE>';
 `
 
 5. Use public keys from the ssh-keys folder or generate new keys
+
 <<<THESE KEYS ARE NOT SAFE FOR PRODUCTION, ONLY FOR TESTING AND DEVELOPMENT>>>
 
 ## Set up Kafka
@@ -44,20 +47,25 @@ Several shell scripts are available to set up Kafka.
 You can either run them or look at the commands and use them manually.
 
 Download and install Kafka Confluent:
+
 `./init_kafka.sh`
 
 Start the Kafka server:
+
 `./start_kafka.sh`
 
 Create the topic:
+
 `./init_topic.sh`
 
 The next time you only need to run:
+
 `./start_kafka.sh`
 
 If you run `./init_topic.sh` then the topic will be re-created and the consumer will be started. The produced messages are writen to the terminal.
 
 You can test the Kafka topic with the producer:
+
 `./start_producer.sh`
 
 ## Test Kafka
