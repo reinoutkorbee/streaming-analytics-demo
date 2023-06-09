@@ -1,0 +1,14 @@
+{
+  "user": "user name",
+  "port": 443,
+  "host": "account_name.snowflakecomputing.com",
+  "scheme": "https",
+  "dataBase": "",
+  "wareHouse": "",
+  "role": "role_name",
+  "bootStrapServers": "127.0.0.1:9092",
+  "ingestionGroupId": "ingestion-group-1",
+  "analyticalGroupId": "analytical-group-1",
+  "topic": "streaming_demo",
+  "ssh_key_path": "ssh_keys"
+}

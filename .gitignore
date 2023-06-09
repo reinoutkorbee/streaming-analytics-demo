@@ -1,0 +1,14 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+.idea
+
+confluent-7.3.2
+
+confluent-community-7.3.2.tar.gz
+
+gradle
+
