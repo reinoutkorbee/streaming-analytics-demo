@@ -29,9 +29,9 @@ On the command line execute to copy the public key:
 pbcopy <  app/src/main/resources/ssh_keys/rsa_key.pub
 `
 
-// Remove the header and footer of the key.
+Remove the header and footer of the key.
 `
-alter user <user> set rsa_public_key='<PUBLIC KEY GOES hERE>';
+alter user <user> set rsa_public_key='<PUBLIC KEY GOES HERE>';
 `
 
 5. Use public keys from the ssh-keys folder or generate new keys
