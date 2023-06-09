@@ -27,11 +27,11 @@ import java.util.Properties;
 
 public class ConnectionHelper {
 
-    public static final String ACCOUNT_NAME = "xv28287";
+    public static final String ACCOUNT_NAME = "<<ACCOUNT_NAME>>";
 
     public static final String REGION = "eu-central-1";
 
-    public static final String USER_NAME = "rkorbee";
+    public static final String USER_NAME = "<<USERNAME>>";
 
     private static final String PRIVATE_KEY_FILE = "ssh_keys/rsa_key.p8";
 
