@@ -1,5 +1,15 @@
 # SnowIce 23 Demo Project: Streaming Analytics in Cybersecurity
 
+## Project Description
+
+- Kafka Confluent local set up
+- Kafka Producer and Consumer
+- Snowpipe Streaming Client
+- Snowflake JDBC Client
+- Connections secured with SSH
+
+![Alt text](architecture_diagram.png?raw=true "Architecture Diagram")
+
 ## Set up the project
 
 1. Checkout streaming-analytics-demo:
