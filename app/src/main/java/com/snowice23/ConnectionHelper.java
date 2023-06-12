@@ -29,7 +29,7 @@ public class ConnectionHelper {
 
     public static final String ACCOUNT_NAME = "<<ACCOUNT_NAME>>";
 
-    public static final String REGION = "eu-central-1";
+    public static final String REGION = "<<REGION>>";
 
     public static final String USER_NAME = "<<USERNAME>>";
 
