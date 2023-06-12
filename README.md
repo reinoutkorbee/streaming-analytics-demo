@@ -1,4 +1,4 @@
-# SnowIce 23 Demo Project: Streaming Analytics in Cybersecurity
+# Streaming Analytics with Snowflake
 
 ## Project Description
 
@@ -14,13 +14,13 @@
 
 1. Checkout streaming-analytics-demo:
 
-git clone git@github.com:snowflakecorp/streaming-analytics-demo.git
-
 2. Import streaming-analytics-demo in IntelliJ
 
 3. IntelliJ should report that it found gradle projects. Load the projects.
 
-4. Run the following SQL code in your Snowflake DB:
+4. Log in to Snowflake or create a test account
+
+5. Run the following SQL code in your Snowflake DB:
 
 `
 create database streaming_demo;
@@ -46,7 +46,7 @@ Remove the header and footer of the key.
 alter user <user> set rsa_public_key='<PUBLIC KEY GOES HERE>';
 `
 
-5. Use public keys from the ssh-keys folder or generate new keys
+6. Use public keys from the ssh-keys folder or generate new keys
 
 <<<THESE KEYS ARE NOT SAFE FOR PRODUCTION, ONLY FOR TESTING AND DEVELOPMENT>>>
 
